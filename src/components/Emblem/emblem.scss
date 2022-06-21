@@ -1,0 +1,27 @@
+html {
+  background-color: #ffdf8c;
+}
+
+.emblem {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  .logo_img {
+    width: 38px;
+    height: 38px;
+    margin-right: 17px;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-size: 24px;
+      color: #181818;
+    }
+    p {
+      font-size: 16px;
+      color: #7b7b7b;
+    }
+  }
+}
