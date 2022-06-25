@@ -1,0 +1,56 @@
+@import "../../scss/variables.scss";
+
+.sortContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 48px;
+  cursor: pointer;
+  position: relative;
+
+  img {
+    width: 10px;
+    height: 5.63px;
+    padding-right: 7px;
+  }
+
+  div {
+    font-weight: 700;
+    font-size: 14px;
+    color: #2c2c2c;
+    padding-right: 8px;
+    position: relative;
+
+    span {
+      color: $primary-color;
+      border-bottom: 1px dotted $primary-color;
+    }
+  }
+  .sortMenu {
+    position: absolute;
+    right: 0;
+    margin-top: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    height: 136px;
+    width: 132px;
+    background: #ffffff;
+    border-radius: 10px;
+
+    div {
+      display: flex;
+      justify-content: center;
+      color: #000000;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      z-index: 1;
+      margin-top: 13px;
+      padding: 6px 0;
+      width: 140px;
+    }
+
+    div:hover {
+      background: rgba(254, 95, 30, 0.05);
+      color: $primary-color;
+    }
+  }
+}

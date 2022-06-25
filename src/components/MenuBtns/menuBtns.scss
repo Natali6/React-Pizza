@@ -1,0 +1,14 @@
+.menuBtn {
+  display: flex;
+  padding: 40px 0;
+
+  button {
+    background: #f9f9f9;
+    color: #2c2c2c;
+    margin-left: 9px;
+  }
+  button:active {
+    color: #f9f9f9;
+    background: #282828;
+  }
+}
